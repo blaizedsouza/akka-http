@@ -1,5 +1,13 @@
 # cache
 
+@@@ div { .group-scala }
+
+## Signature
+
+@@signature [CachingDirectives.scala](../../../../../../../../../akka-http-caching/src/main/scala/akka/http/scaladsl/server/directives/CachingDirectives.scala) { #cache }
+
+@@@
+
 ## Description
 
 Wraps its inner Route with caching support using the given `akka.http.caching.javadsl.Cache` implementation and the provided keyer function.
